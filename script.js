@@ -1,22 +1,12 @@
-// let burger = document.getElementById('.burger');
-// let navbar = document.getElementById('.navbar');
-// let navbarList = document.getElementById('.navbarList');
-// let search = document.getElementById('.search');
+let burger = document.querySelector('.burger');
+let navbar = document.querySelector('.navbar');
+let navbarList = document.querySelector('.navbarList');
+let search = document.querySelector('.search');
 
-// burger.addEventListener('click', ()=>{
+burger.addEventListener('click', ()=>{
 
-//     search.classList.toggle('navListResponsive');
-//     navbarList.classList.toggle('navListResponsive');
-//     navbar.classList.toggle('navResponsive');
+    search.classList.toggle('navListResponsive');
+    navbarList.classList.toggle('navListResponsive');
+    navbar.classList.toggle('navResponsive');
 
-// })
-
-
-let burger = document.getElementById('.burger');
-let togglebar = document.getElementById('.toggleList');
-
-burger.addEventListener('click', function(){
-
-       console.log('hii');
-    });
-    
+})

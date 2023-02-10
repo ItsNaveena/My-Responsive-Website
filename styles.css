@@ -297,6 +297,7 @@
 
 
 
+
 /* for responsiveness */
 
 @media only screen and (max-width: 1140px) {
@@ -305,7 +306,7 @@
   }
 
   .navbar {
-    height: 447px;
+    height: 500px;
     flex-direction: column;
     transition: 0.8s;
   }
@@ -326,6 +327,15 @@
   .burger {
     display: block;
   }
+
+  .navResponsive{
+    height : 72px;
+}
+
+.navListResponsive{
+    opacity: 0;
+}
+
 
   .firstSection {
     flex-direction: column-reverse;
@@ -395,15 +405,7 @@
     align-items: center;
   }
 
-  .toggleList{
-
-    background-color: rgb(241, 187, 241);
-    height: 550px;
-    text-align: center;
-    justify-content: center;
-
-}
-
+  
 
 
 }
