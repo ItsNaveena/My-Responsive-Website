@@ -12,11 +12,10 @@
 </head>
 <body>
 
-    <img class="backgroundImg" src="/BG.jpg">
-
-<nav class="navbar">
    
-    <ul class="navbarList">
+<nav class="navbar navResponsive toggleList">
+   
+    <ul class="navbarList navListResponsive ">
 
         <div class="logo">
             <img src="/lotus-flower-1805784_1280.png" alt="logo">
@@ -29,7 +28,7 @@
 
     </ul>
 
-    <div class="search">
+    <div class="search navListResponsive">
         <input type="text" name="search" id="searchbar">
         <button class="searchbtn" >Search</button>
     </div>
@@ -109,5 +108,14 @@
     </p>
 </footer> 
 
+<script>
+    let burger = document.getElementById('.burger');
+let togglebar = document.getElementById('.toggleList');
+
+burger.addEventListener('click', ()=>{
+
+       alert('hii');
+    });
+</script>
 </body>
 </html>
